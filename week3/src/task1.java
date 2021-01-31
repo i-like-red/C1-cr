@@ -11,16 +11,16 @@ public class task1 {
         if(BMI < 18.5)
             System.out.println("过低");
 
-        if(BMI >= 18.5 && BMI <25)
+        else if(BMI >= 18.5 && BMI <25)
             System.out.println("正常");
 
-        if(BMI >= 25 && BMI <25)
+        else if(BMI >= 25 && BMI <25)
             System.out.println("过重");
 
-        if(BMI >= 28 && BMI <32)
+        else if(BMI >= 28 && BMI <32)
             System.out.println("肥胖");
 
-        if(BMI >= 32)
+        else
             System.out.println("非常肥胖");
 
     }
